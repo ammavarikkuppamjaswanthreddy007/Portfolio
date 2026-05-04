@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaswanth Reddy | Portfolio</title>
+    <meta name="description" content="Personal portfolio of Ammavari Kuppam Jaswanth Reddy, a Computer Science Undergraduate and Aspiring Software Developer.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dark-mode">
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#" class="logo">AK<span>JR</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-extra">
+                <button id="theme-toggle" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content fade-in-up">
+                <h3>Hello, I'm</h3>
+                <h1>Ammavari Kuppam Jaswanth Reddy</h1>
+                <p class="title">Computer Science Undergraduate (2023–2027)</p>
+                <h2 class="tagline"><span id="typing-text"></span><span class="cursor">|</span></h2>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    <a href="#" class="btn btn-text" download>Download Resume <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-img-container reveal">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                        <span>Profile Image</span>
+                    </div>
+                </div>
+                <div class="about-text reveal">
+                    <p>I am a passionate <strong>Computer Science student</strong> at Mohan Babu University, Tirupati, with a keen interest in Software Development, AI, and Full Stack Web Development.</p>
+                    <p>I possess strong problem-solving and analytical skills, and I am dedicated to building innovative solutions that make a positive impact. My journey in tech is driven by curiosity and a commitment to continuous learning.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>B.Tech CSE Undergraduate</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-location-dot"></i>
+                            <span>Tirupati, India</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <!-- Programming -->
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Programming</h3>
+                    <ul class="skill-list">
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <!-- Web Technologies -->
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-globe"></i></div>
+                    <h3>Web Technologies</h3>
+                    <ul class="skill-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                    </ul>
+                </div>
+                <!-- Tools -->
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Tools</h3>
+                    <ul class="skill-list">
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>SQL Workbench</li>
+                    </ul>
+                </div>
+                <!-- Soft Skills -->
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>Soft Skills</h3>
+                    <ul class="skill-list">
+                        <li>Time Management</li>
+                        <li>Communication</li>
+                        <li>Leadership</li>
+                        <li>Positive Attitude</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Experience Section -->
+    <section id="timeline" class="section">
+        <div class="container">
+            <div class="timeline-wrapper">
+                <!-- Education -->
+                <div class="education-side reveal">
+                    <h2 class="section-title">Education</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2023 – 2027</span>
+                                <h3>B.Tech in Computer Science Engineering</h3>
+                                <p class="institution">Mohan Babu University, Tirupati</p>
+                                <p class="cgpa">CGPA: 9.4/10</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2021 – 2023</span>
+                                <h3>Intermediate (MPC)</h3>
+                                <p class="institution">Narayana Junior College</p>
+                                <p class="percentage">Score: 90%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div class="experience-side reveal">
+                    <h2 class="section-title">Experience</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content card-experience">
+                                <span class="timeline-date">Internship</span>
+                                <h3>EcoBazaar CarbonFlow Project</h3>
+                                <p>Built an e-commerce web application focused on sustainability.</p>
+                                <ul class="experience-details">
+                                    <li>Product browsing & Recycling module</li>
+                                    <li>Carbon footprint tracking dashboard</li>
+                                    <li>Eco-reward system for users</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <div class="image-placeholder">
+                            <i class="fas fa-brain"></i>
+                            <span>SPAN AI</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>SPAN AI</h3>
+                        <p>AI-powered learning assistant with summarization, flashcards, and quizzes for study automation.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="btn-icon"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <div class="image-placeholder">
+                            <i class="fas fa-home"></i>
+                            <span>ZeroBroker</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ZeroBroker Project</h3>
+                        <p>Real estate platform connecting owners and tenants directly with advanced filtering options.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="btn-icon"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Achievements -->
+    <section id="extras" class="section">
+        <div class="container grid-2">
+            <div class="reveal">
+                <h2 class="section-title">Certifications</h2>
+                <div class="extra-card">
+                    <i class="fas fa-certificate"></i>
+                    <div class="extra-text">
+                        <h4>Infosys Springboard Virtual Internship</h4>
+                        <p>EcoBazaar Carbon Footprint Project</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reveal">
+                <h2 class="section-title">Achievements</h2>
+                <div class="extra-card">
+                    <i class="fas fa-trophy"></i>
+                    <div class="extra-text">
+                        <h4>Yuvaaranga 2K25</h4>
+                        <p>Winner and finalist in Internal Hackathon</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:jaswanthreddy72005@gmail.com">jaswanthreddy72005@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+917995870213">+91-7995870213</a></p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/ammavarikuppamjaswanthreddy007" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/jaswanth-reddy-ammavari-kuppam-2b3855386/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-container reveal">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                    <div id="form-status"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ammavari Kuppam Jaswanth Reddy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button id="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+# OS files
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+
+# Local build files
+node_modules/
+dist/
+
+# Gemini artifacts
+.gemini/
+implementation_plan.md
+task.md
+walkthrough.md
